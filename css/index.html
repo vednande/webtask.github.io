@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Registration form</title>
+    <link rel="stylesheet" href="index.css">
+</head>  
+<body>
+    <div class="AKAM">
+        <a> <img src="https://www.upsc.gov.in/sites/all/themes/upsc/images/akam-logo.png" alt="" width="286"
+                height="150"></a>
+    </div>
+    <div class="digitalIndia">
+        <a> <img src="https://www.upsc.gov.in/sites/all/themes/upsc/images/logo.png" alt="" width="183" height="97"></a>
+    </div>
+    <div class="name">
+        <u>
+            <span>संघ लोक सेवा आयोग</span>
+        </u> <br> <br>
+        <u><span>UNION PUBLIC SERVICE COMMISSION</span></u>
+    </div>
+    <div class="partone">
+        <p class="partonePara"> Part-1 Registration / भाग-१ पंजीकरण</p>
+    </div>
+    <div class="divColorBlack"></div>
+    <div class="PersonalDetails">
+        <u style="color: red    ;">
+            <h1>Personal Details</h1>
+        </u>
+    </div>
+    <center>
+        <div>
+            <form>
+                <table style="width: 50%;">
+                    <tr>
+                        <td><label for="CandidateName">• Name / नाम:</label></td>
+                        <td><input type="text" required placeholder="Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CandidateGender">• Gender / लिंग:</label></td>
+                        <td><input type="radio" name="Gender" required>Male</td>
+                        <td><input type="radio" name="Gender" required>Female</td>
+                        <td><input type="radio" name="Gender" required> Other</td>
+                    </tr>
+                    <tr>
+                        <td><label for="CandidateDOB">• Date of Birth: / जन्म की तारीख</label></td>
+                        <td><input type="date" name="DOB" id="" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CandidateNationality">• Nationality / राष्ट्रीयता:</label></td>
+                        <td><input type="text" id="Nationality" placeholder="For Eg. Indian" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="MarriedOrNot">• Maritial Status / वैवाहिक स्थिति:</label></td>
+                        <td><input type="radio" name="Maritial" id="" required>Married</td>
+                        <td><input type="radio" name="Maritial" id="" required>Un-Married</td>
+                    </tr>
+                    <tr>
+                        <td><label for="PWD" required>• Person with Disability / अपंग व्यक्ति:</label></td>
+                        <td><input type="radio" name="PWD" id="" required>Yes</td>
+                        <td><input type="radio" name="PWD" id="" required>No</td>
+                    </tr>
+                </table> <br>
+            </form>
+        </div>
+    </center>
+
+    <div class="divColorBlack"></div>
+
+    <div class="EducationQualification">
+        <u style="color: red;">
+            <h1>Education Qualification / शैक्षणिक योग्यता</h1>
+        </u>
+    </div>
+    <center>
+        <div>
+            <!-- <form> -->
+                <table style="width: 80%;">
+                    <tr>
+                        <td><label for="SelectQuali">• Select Qualification / योग्यता का चयन करें:</label></td>
+                        <td><input type="radio" name="Quali" required>Already passed the degree or equivalent
+                            Examination</td>
+                        <td><input type="radio" name="Quali">Appeared/Appearing at the degree or equivalent Examination
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="SelectStream">• Select Stream / स्ट्रीम का चयन करें:</label></td>
+                        <td>
+                            <form>
+                                <select name="PhotoIDCard" id="PhotoIDCard" required style="background-color: grey; color: white;">
+                                <option value="Select"><Select:d> </Select:d></option>
+                                <option value="Degree in Agriculture">Degree in Agriculture</option>
+                                <option value="Degree in Engineering">Degree in Engineering</option>
+                                <option value="Gradute in Sociolody">Gradute in Sociolody</option>
+                                <option value="Graduate in Geography">Graduate in Geography</option>
+                                <option value="Graduate in Political Science">Graduate in Political Science</option>
+                                <option value="Graduate in History">Graduate in History</option>
+                                <option value="Graduate in Public Administration">Graduate in Public Administration
+                                </option>
+                                <option value="Graduate in Economics">Graduate in Economics</option>
+                                </select>
+                            </form> <br><br>
+                        </td>
+                    </tr>
+                </table>
+            <!-- </form> -->
+        </div>
+    </center> <br>
+
+    <div class="divColorBlack"></div>
+
+    <div>
+        <u style="color: red;">
+            <h1>Address / पता:</h1>
+        </u>
+    </div>
+    <div>
+        <form>
+            <table style="width: 100%;">
+                <tr>
+                    <td><label for="Address">Line 1 / रेखा १:</label></td>
+                    <td><input type="text" name="Address1" style="width: 600px; height: 30px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Line 2 / रेखा २:</label></td>
+                    <td> <input type="text" name="Address2" id="" style="width: 600px; height: 30px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Line 3 / रेखा ३:</label></td>
+                    <td> <input type="text" name="Address3" id="" style="width: 600px; height: 30px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="State">• State / राज्य :</label></td>
+                    <td><input type="text" title="For Eg. Maharashtra" placeholder="For Eg. Uttar Pradesh" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="PINCode">• PIN Code / पिन कोड:</label></td>
+                    <td><input type="tel" name="PINCode" id="" min="1000000" max="2999999" maxlength="7" placeholder="PIN Code" required></td>
+                </tr>
+                <tr>
+                    <td><label for="PhoneNum">• Phone No. / फ़ोन नंबर:</label></td>
+                    <td><input type="tel" name="PhoneNum" placeholder="22***" id="" min="1000000" max="2999999" maxlength="7" required></td>
+                </tr>
+                <tr>
+                    <td><label for="MobileNum">• Mobile No. / मोबाइल नंबर:</label></td>
+                    <td><input type="tel" name="MobileNum" placeholder="9567***" min="6000000000" max="9999999999" maxlength="10" id="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="EMail">• E-Mail / ईमेल:</label></td>
+                    <td><input type="text" name="EMail" placeholder="abc@gmail.com" id="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="ConfoEMail">• Confirm E-Mail / ईमेल:</label></td>
+                    <td><input type="text" name="EMail" id="" placeholder="Confirm your E-Mail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="PhotoIdentity">Photo Identity Card / फोटो पहचान पत्र:</label></td>
+                    <td><form>
+                            <select required style="background-color: grey; color: white;">
+                                <option><Select:d></Select:d></option>
+                                <option>Aadhar Card</option>
+                                <option>Driving Licence</option>
+                                <option>PAN card</option>
+                                <option>Passport</option>
+                                <option>Voter ID</option>
+                            </select> &nbsp; &nbsp;
+                            <input class="File" type="file" id="File">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="PIDCardNum">• Photo Identity Card Number / फोटो पहचान पत्र संख्या:</label></td>
+                    <form><td><input type="tel" name="PIDCardNum" placeholder="Photo ID Card Number" id="" maxlength="12" required></td></form>
+                </tr>
+                <tr>
+                    <td><label for="ConfoPIDCardNum">• Confirm Photo Identity Card Number / फोटो पहचान पत्र संख्या की पुष्टि करें:</label></td>
+                    <form><td><input type="password" maxlength="12" placeholder="Confirm Photo ID Card Number" required></td></form>
+                </tr>
+                <tr>
+                    <td><label for="NumberOfAttempts">• Number of Attempts already made in Civil Service Examination / सिविल सेवा परीक्षा में पहले से किए गए प्रयासों की संख्या:</label></td>
+                    <form><td><input type="tel" name="Attempt" id="" min="0" max="9" maxlength="1" placeholder="Number of attempts made till date" required></td></form>
+                </tr>
+                <tr>
+                    <td><label for="CenterForExam">• Center for CSE Main Exam / सीएसई मुख्य परीक्षा के लिए केंद्र:</label></td>
+                    <td><form>
+                        <select id="PhotoIDCard" required style="background-color: grey; color: white;">
+                            <option><Select:d></Select:d></option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Bhopal">Bhopal</option>
+                            <option value="Chandighar">Chandighar</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Gandhinagar">Gandhinagar</option>
+                            <option value="Hydrabad">Hydrabad</option>
+                            <option value="Jaipur">Jaipur</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Lucknow">Lucknow</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Raipur">Raipur</option>
+                            <option value="Shimla">Shimla</option>
+                            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                        </select>
+                    </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Language1to5">• Language Medium for paper 1 to paper 5 / पेपर 1 से पेपर 5 के लिए भाषा माध्यम:</label></td>
+                    <td>
+                    <form>
+                        <select required style="background-color: grey; color: white;">
+                            <option><Select:d></Select:d></option>
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="Gujrati">Gujrati</option>
+                            <option value="Kannada">Kannada</option>
+                            <option value="Malayalam">Malayalam</option>
+                            <option value="Marathi">Marathi</option>
+                            <option value="Odia">Odia</option>
+                            <option value="Punjabi">Punjabi</option>
+                            <option value="Tamil">Tamil</option>
+                            <option value="Telugu">Telugu</option>
+                        </select>
+                    </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="OptionalSub">• Optional Subject for paper 6 and paper 7 / पेपर 6 और पेपर 7 के लिए वैकल्पिक विषय:</label></td>
+                    <td>
+                        <form>
+                            <select required style="background-color: grey; color: white;">
+                            <option><Select:d></Select:d></option>
+                            <option value="Agriculture">Agriculture</option>
+                            <option value="Animal Husbandry and Veterinary Science">Animal Husbandry and Veterinary Science</option>
+                            <option value="Botany">Botany</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Civil Engineering">Civil Engineering</option>
+                            <option value="Commerce and Accountancy">Commerce and Accountancy</option>
+                            <option value="Electrical Engineering">Electrical Engineering</option>
+                            <option value="Mathematics">Mathematics</option>
+                            <option value="Mechanical Engineering">Mechanical Engineering</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Psychology">Psychology</option>
+                            <option value="Public Administration">Public Administration</option>
+                            </select>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <hr> <br><br>
+    <center>
+        <div>
+            <!-- <form> -->
+            <table border="1" style="width: 50%; height: 200px; " class="Ten" cellpadding="1">
+                <tr>
+                    <td>Qualification</td>
+                    <td>Pass Status</td>
+                    <td>Place of Schooling</td>
+                    <td>Type of School</td>
+                    <td>School Board</td>
+                    <td>Year of Passing</td>
+                    <td>Marks Obtained</td>
+                    <td>Marks out of</td>
+                    <td>Percentage</td>
+                    <td>Roll Number</td>
+                </tr>
+                <tr>
+                    <td>10th or Equivalent</td>
+                    <td>
+                        <form>
+                            <select required>
+                                <option><Select:d></Select:d></option>
+                                <option>Pass</option>
+                                <option>Fail</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form><input type="text" id="PlaceofSchooling" placeholder="Place of Schooling" required></form>
+                    </td>
+                    <td>
+                        <form>
+                            <select required>
+                                <option><Select:d></Select:d></option>
+                                <option>Public</option>
+                                <option>Private</option>
+                                <option>Govt</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <select required>
+                                <option><Select:d></Select:d></option>
+                                <option>CBSE</option>
+                                <option>ICSE</option>
+                                <option>State</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form><input type="text" id="Passing year" placeholder="Year of Passing" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" maxlength="3" min="0" max="999" id="Marks obtained" placeholder="Total Marks Obtained" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" maxlength="3" min="0" max="999" id="Marks out of" placeholder="Marks out of" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" id="Percentage" maxlength="3" min="0" max="100" placeholder="Obtained Percentage" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" id="RollNum" maxlength="8" placeholder="Roll Number" required></form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12th or Equivalent</td>
+                    <td>
+                        <form>
+                            <select required>
+                                <option><Select:d></Select:d></option>
+                                <option>Pass</option>
+                                <option>Fail</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form><input type="text" id="PlaceOfSchooling" placeholder="Place of Schooling" required></form>
+                    </td>
+                    <td>
+                        <form>
+                            <select required>
+                                <option><Select:d></Select:d></option>
+                                <option>Public</option>
+                                <option>Private</option>
+                                <option>Govt</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <select required>
+                                <option><Select:d></Select:d></option>
+                                <option>CBSE</option>
+                                <option>ICSE</option>
+                                <option>State</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form><input type="text"  id="Passing Year" placeholder="Year of Passing" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" maxlength="3" min="0" max="999" id="Marks Obtained" placeholder="Total Marks Obtained" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" maxlength="3" min="0" max="999" id="Marks out of" placeholder="Marks out of" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" id="Percentage" maxlength="3" min="0" max="100" placeholder="Obtained Percentage" required></form>
+                    </td>
+                    <td>
+                        <form><input type="tel" id="RollNum" maxlength="8" placeholder="Roll Number" required></form>
+                    </td>
+                </tr>
+            </table>
+            <!-- </form>  -->
+        </div>
+    </center> <br><br>
+    <div class="divColorBlack"></div>
+    <br><br>
+
+    <u style="color: red;">
+        <h1>Paticular Checklist to be Verified</h1>
+    </u>
+    <div class="checkBox">
+        <form>
+            Kindly Verify all the particular listed below carefully.Once submitted Registration Form finally,changes can't
+        be made.
+        <div class="checkBox1">
+            <form ><input type="checkbox" name="NameCheck" id=""> Name
+                <input type="checkbox"  id=""> Nationality
+                <input type="checkbox"  id=""> Address
+                <input type="checkbox"  id=""> Pin Code</form>
+        </div>
+        <div class="checkBox2">
+            <input type="checkbox"  id=""> <label>Mobile Number</label>
+            <input type="checkbox"  id=""> <label>Education Qualification</label>
+            <input type="checkbox"  id=""> <label>Number of Attempts</label>
+        </div>
+        </form>
+    </div> 
+
+        <div class="submitreset">
+            <form>
+                <button type="submit" class="submit" value="Submit / प्रस्तुत" onclick="alert('Are you sure you want to submit ??')">Submit / प्रस्तुत</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset" class="reset" value="Reset / रीसेट">Reset / रीसेट</button>
+            </form>
+        </div>
+        
+</body>
+
+</html>
